@@ -34,6 +34,8 @@
 * process name homework include
 * path ends with jpg include 
  ![h](img/8.PNG)
+ 
+就可直接看到结果了
 可看到结果
 ![h](img/1573912210607.jpg)
 
