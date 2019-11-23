@@ -15,16 +15,16 @@
 ![filer](/img/4.jpg)
 
 2. 添加几个过滤器选项
-* process name is homework.exe include 
-* path begins with C:\Windows Exclude
-* result is success include
+* process name is homework.exe include (监测它的活动)
+* path begins with C:\Windows Exclude（排除它访问系统文件的活动）
+* result is success include（排除失败的那些结果）
 
 * 在软件界面中只选择 show me file system activity 
 ![h](/img/6.PNG)
-* 继续设置过滤器    path  contains homework exclude
-* path contains C:\Users\vegetable\AppData exclude
+* 继续设置过滤器    path  contains homework exclude（排除它访问自身文件的活动）
+* path contains C:\Users\vegetable\AppData exclude（根据显示情况继续排除）
   
- 就会得到如下结果
+ 最后肉眼就会得到如下结果
 ![h](img/7.PNG)
 3. 点开就可以看到jpg文件的目录了
    
